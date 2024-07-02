@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kiran">
+    <meta name="keywords" content="HTML CSS JS">
+    <meta name="description" content="Student Registration Form">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <h4 style="text-align: center;"><u>Note : You can make changes such as Edit or Delete after entering your details.</u></h4>
+        <h4 style="text-align: center;">If your details are added you will find the white border.</h4>
+        <h4 style="text-align: center;">If you found details present in the form click clear button, you will find the black border.</h4>
+    </header>
+
+
+    <main id="parent">
+
+        <div id="child1">
+            <form action="">
+
+                <label for="name">Name : </label>
+                <br>
+                <br>
+                <input type="text" id="name" placeholder="Satyam Nadella" required>
+            
+                <br>
+                <br>
+            
+                <label for="studentId">Student Id : </label>
+                <br>
+                <br>
+                <input type="number" id="studentId" required>
+            
+                <br>
+                <br>
+            
+                <label for="email">Email : </label>
+                <br>
+                <br>
+                <input type="email" id="email" placeholder="satyam@gmail.com" required>
+            
+                <br>
+                <br>
+            
+                <label for="rollNumber">Roll Number : </label>
+                <br>
+                <br>
+                <input type="number" id="rollNumber" required>
+            
+                <br>
+                <br>
+            
+                <button type="submit" id="addButton">Add</button>
+                <button type="reset" id="resetAnimation">Clear</button>
+            
+            </form>
+            
+        </div>
+
+        <h2 style="text-align: center;"><u>After filling the Form, you can see your details that will be added to the below Table.</u></h2>
+
+        <div id="child2">  <!-- to add new data created a empty div section -->
+            
+        </div>
+
+    </main>
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
